@@ -1,6 +1,7 @@
 @import '../../styles/app';
 
 .theme-helper {
+  visibility: hidden;
   width: $helper-width;
   position: fixed;
   right: -$helper-width;

@@ -9,16 +9,6 @@
           <i class='fi flaticon-menu' />
         </a>
       </b-nav-item>
-      <b-nav-item class="d-md-down-none">
-        <a href="#" class="px-2">
-          <i class='fi flaticon-flip' />
-        </a>
-      </b-nav-item>
-      <b-nav-item class="d-md-down-none">
-        <a href="#" class="px-2">
-          <i class='fi flaticon-close' />
-        </a>
-      </b-nav-item>
     </b-nav>
     <b-nav>
       <b-form class="d-sm-down-none ml-5" inline>
@@ -49,8 +39,6 @@
             <img class="rounded-circle" src="../../assets/people/a7.png" alt="..." />
           </span>
           <span class="px-2">Philip Smith</span>
-          <span class="ml-1 mr-2 circle text-white fw-bold avatar-badge">9</span>
-          <i class='fi flaticon-arrow-down px-2' />
         </template>
         <Notifications />
       </b-nav-item-dropdown>
@@ -61,9 +49,6 @@
         <b-dropdown-item><i class='fi flaticon-person px-3 mr-3' /> My Account</b-dropdown-item>
         <b-dropdown-divider />
         <b-dropdown-item><i class='fi flaticon-calendar-9 px-3 mr-3' />Calendar</b-dropdown-item>
-        <b-dropdown-item><i class='fi flaticon-email px-3 mr-3' />
-          Inbox &nbsp;&nbsp;<b-badge variant="inverse" pill class="animate__animated animate__bounceIn" style="padding: 6px 9px;">9</b-badge>
-        </b-dropdown-item>
         <b-dropdown-divider />
         <b-dropdown-item-button @click="logout">
           <i class="fi flaticon-power-1 px-3 mr-3" /> Log Out
